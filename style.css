@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    justify-content: center;
+}
+#nav1 h4{
+    font-weight:600;
+    color: #444;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#nav img{
+      height: 30px;
+}
+#nav h4{
+    font-size: 14px;
+    font-weight: 500;
+}
+#nav button{
+    padding: 14px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+#a{
+    background-color: #0D0C22;
+    color: #fff;
+}
+#center{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    
+}
+#center video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#center #overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.493);
+    top: 0;
+    /* cursor: pointer;
+    transition: all ease 0.5s; */
+    
+}
+
+#overlay .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 130px;
+    width: 100%;
+    /* cursor: pointer;
+    transition: all ease 0.5s; */
+    cursor: pointer;
+}
+.head h4{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.648);
+    padding: 14px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    /* cursor: pointer;
+    transition: all ease 0.5s; */
+}
+.head h4:hover{
+    /* transition: all ease 0.5s; */
+    color: black;
+    background-color: white;
+    scale: 0.9;
+}
+
+
+#overlay h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#overlay p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    margin-top: 20px;
+}
+#overlay input{
+    width: 40%;
+    height: 10%;
+    margin-left: 30%;
+    margin-top: 2%;
+    padding-left: 45px;
+    border-radius: 28px;
+    border: none;
+}
+#overlay #head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 130px;
+    width: 100%;
+    /* cursor: pointer;
+    transition: all ease 0.5s; */
+}
+#head1 h5{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border-style: ridge;
+    border-color: white;
+    border-width: 0.1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#head1 h5:hover{
+    background-color: white;
+    color: black;
+    scale: 0.9;
+}
+#head1 #m{
+    border-style: none;
+    background: none;
+}
+#page2{
+    padding-top: 100px;
+    /* overflow: hidden; */
+}
+#page2 #box{
+    height: 300px;
+    width: 400px;
+    background-color: #0D0C22;
+    display: inline-block;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;  
+    
+}
+#box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#box #bxx{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: #0D0C22;
+    bottom: -40%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.884));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    /* transition: all ease 0.5s; */
+}
+#bxx h6{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+#bxx i {
+    background-color: #fff;
+    padding: 8px 8px;
+    /* cursor: pointer; */
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+#box:hover #bxx{
+    bottom: 0;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4fa;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+/* #block{
+    height: 70%;
+    width: 100%;
+
+} */
+#page3 .blck{
+    height: 75%;
+    width: 15%;
+    /* position: absolute; */
+   /* background-color: aqua; */
+}
+#page3 #blk1{
+    width: 20%;
+    padding-left: 35px;
+    
+}
+#blk1 img{
+    height: 5%;
+    width: 38%;
+    margin-top: 50px;
+}
+#blk1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 20px 0px;
+}
+#blk1 i{
+    margin: 200px 0px;
+    padding-left: 8px;
+    font-size: 25px;
+}
+#blk2 h4{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blk2 p{
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+#blk3 h4{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blk3 p{
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+#blk3 h5{
+    margin: 15px 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#blk3 p1{
+    margin: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blk4 h4{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blk4 p{
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+#blk5 h4{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blk5 p{
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+#blk5 h5{
+    margin: 15px 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#blk5 p1{
+    margin: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#blk6 h4{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blk6 p{
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+    
+    
+   
